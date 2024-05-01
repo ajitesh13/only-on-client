@@ -4,7 +4,8 @@
   "description": "Ensure client side rendering of a component",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,16 @@
   "homepage": "https://github.com/ajitesh13/only-on-client#readme",
   "dependencies": {
     "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.0",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.24.1",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^15.0.5",
+    "babel-jest": "^27.4.6",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
   }
 }
