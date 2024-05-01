@@ -1,0 +1,22 @@
+{
+  "name": "only-on-client",
+  "version": "0.0.1",
+  "description": "Ensure client side rendering of a component",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajitesh13/only-on-client.git"
+  },
+  "author": "ajitesh13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajitesh13/only-on-client/issues"
+  },
+  "homepage": "https://github.com/ajitesh13/only-on-client#readme",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
