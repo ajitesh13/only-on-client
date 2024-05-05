@@ -1,6 +1,6 @@
 {
   "name": "only-on-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ensure client side rendering of a component",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,26 @@
     "babel-jest": "^27.4.6",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0"
-  }
+  },
+  "keywords": [
+    "React",
+    "Client-side rendering",
+    "Server-side rendering",
+    "Frontend",
+    "Backend",
+    "React component",
+    "useState",
+    "useEffect",
+    "Rendering",
+    "JavaScript",
+    "Web development",
+    "SSR (Server-side rendering)",
+    "CSR (Client-side rendering)",
+    "Next.js",
+    "Gatsby",
+    "SPA (Single Page Application)",
+    "Universal rendering",
+    "Frontend framework",
+    "Web components"
+  ]
 }
